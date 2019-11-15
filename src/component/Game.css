@@ -1,0 +1,136 @@
+.master {
+    overflow: hidden;
+    box-sizing: border-box;
+    background-size: initial  ;
+    background-image: url(./bg3.png);
+    background-size: 1000px 500px;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .side-bar {
+    float: left;
+    width: 20%;
+    justify-content: center;
+    padding-top: 20%;
+  }
+  
+  .game {
+    float: right;
+    width: 50%;
+  }
+  
+  .board {
+    margin-top: 1%;
+    opacity: 0.8;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+    
+  .square {
+      width: 200px;
+      height: 200px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      font-size: 5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+    
+  .square:hover {
+      cursor: pointer;
+      background-color: #3BD2FC;
+  }
+  
+  .reset-button {
+    display: flex;
+    width: 120px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #21E44F;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 3px 2px gray;
+  }
+  
+  .reset-button:active {
+        background-color: #026F1B;
+  }
+  
+  .button-line {
+    display: inline-flex;
+    width: 300px;
+    padding-top: 200px;
+  }
+.btn{
+  margin: 10px;
+}
+
+  .active-singleplayer-button {
+    padding: 2px;
+    display: flex;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #2080E4;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 3px 2px gray; 
+  }
+  
+  .deactived-singleplayer-button {
+    padding: 2px;
+    display: flex;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #666D75;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 3px 2px gray; 
+  }
+  
+  .active-multiplayer-button {
+    padding: 2px;
+    display: flex;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #2080E4;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 3px 2px gray; 
+  }
+  
+  .deactived-multiplayer-button {
+    padding: 2px;
+    display: flex;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #666D75;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 3px 2px gray; 
+  }
